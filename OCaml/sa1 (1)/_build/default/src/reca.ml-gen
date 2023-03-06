@@ -1,0 +1,18 @@
+(** @canonical Reca.Ast *)
+module Ast = Reca__Ast
+
+
+(** @canonical Reca.Ds *)
+module Ds = Reca__Ds
+
+
+(** @canonical Reca.Interp *)
+module Interp = Reca__Interp
+
+
+(** @canonical Reca.Lexer *)
+module Lexer = Reca__Lexer
+
+
+(** @canonical Reca.Parser *)
+module Parser = Reca__Parser

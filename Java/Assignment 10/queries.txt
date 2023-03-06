@@ -1,0 +1,65 @@
+owl> props DoeP
+[main] INFO org.apache.jena.arq.exec - QUERY
+  SELECT  ?prop ?object
+  WHERE
+    { <http://www.cs.stevens.edu/cs548#DoeP>
+                ?prop  ?object
+    }
+[main] INFO org.apache.jena.arq.exec - ALGEBRA
+  (project (?prop ?object)
+    (bgp (triple <http://www.cs.stevens.edu/cs548#DoeP> ?prop ?object)))
+[main] INFO org.apache.jena.arq.exec - BGP ::   <http://www.cs.stevens.edu/cs548#DoeP> ?prop ?object
+[main] INFO org.apache.jena.arq.exec - Reorder/generic ::   <http://www.cs.stevens.edu/cs548#DoeP> ?prop ?object
+
+
+owl> props KumPro
+[main] INFO org.apache.jena.arq.exec - QUERY
+  SELECT  ?prop ?object
+  WHERE
+    { <http://www.cs.stevens.edu/cs548#KumPro>
+                ?prop  ?object
+    }
+[main] INFO org.apache.jena.arq.exec - ALGEBRA
+  (project (?prop ?object)
+    (bgp (triple <http://www.cs.stevens.edu/cs548#KumPro> ?prop ?object)))
+[main] INFO org.apache.jena.arq.exec - BGP ::   <http://www.cs.stevens.edu/cs548#KumPro> ?prop ?object
+[main] INFO org.apache.jena.arq.exec - Reorder/generic ::   <http://www.cs.stevens.edu/cs548#KumPro> ?prop ?object
+
+
+owl> isa KumPro Provider
+[main] INFO org.apache.jena.arq.exec - QUERY
+  ASK
+  WHERE
+    { <http://www.cs.stevens.edu/cs548#KumPro>
+                a                     <http://www.cs.stevens.edu/cs548#Provider>
+    }
+[main] INFO org.apache.jena.arq.exec - ALGEBRA
+  (bgp (triple <http://www.cs.stevens.edu/cs548#KumPro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cs.stevens.edu/cs548#Provider>))
+[main] INFO org.apache.jena.arq.exec - BGP ::   <http://www.cs.stevens.edu/cs548#KumPro> rdf:type <http://www.cs.stevens.edu/cs548#Provider>
+[main] INFO org.apache.jena.arq.exec - Reorder/generic ::   <http://www.cs.stevens.edu/cs548#KumPro> rdf:type <http://www.cs.stevens.edu/cs548#Provider>
+KumPro IS recognized as a Provider
+
+
+isa JaneP Patient
+[main] INFO org.apache.jena.arq.exec - QUERY
+  ASK
+  WHERE
+    { <http://www.cs.stevens.edu/cs548#JaneP>
+                a                     <http://www.cs.stevens.edu/cs548#Patient>
+    }
+[main] INFO org.apache.jena.arq.exec - ALGEBRA
+  (bgp (triple <http://www.cs.stevens.edu/cs548#JaneP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cs.stevens.edu/cs548#Patient>))
+[main] INFO org.apache.jena.arq.exec - BGP ::   <http://www.cs.stevens.edu/cs548#JaneP> rdf:type <http://www.cs.stevens.edu/cs548#Patient>
+[main] INFO org.apache.jena.arq.exec - Reorder/generic ::   <http://www.cs.stevens.edu/cs548#JaneP> rdf:type <http://www.cs.stevens.edu/cs548#Patient>
+JaneP IS recognized as a Patient
+
+
+[main] INFO org.apache.jena.arq.exec - QUERY
+  SELECT  ?subject ?prop ?object
+  WHERE
+    { ?subject  ?prop  ?object }
+[main] INFO org.apache.jena.arq.exec - ALGEBRA
+  (project (?subject ?prop ?object)
+    (bgp (triple ?subject ?prop ?object)))
+[main] INFO org.apache.jena.arq.exec - BGP ::   ?subject ?prop ?object
+[main] INFO org.apache.jena.arq.exec - Reorder/generic ::   ?subject ?prop ?object

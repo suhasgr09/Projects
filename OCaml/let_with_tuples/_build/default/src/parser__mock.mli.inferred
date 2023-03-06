@@ -1,0 +1,61 @@
+type token =
+    UNTUPLE
+  | UNPAIR
+  | TIMES
+  | THEN
+  | SND
+  | SETREF
+  | SET
+  | SEMICOLON
+  | RPAREN
+  | RBRACE
+  | RANGLE
+  | PROC
+  | PLUS
+  | PAIR
+  | NOT
+  | NEWREF
+  | MINUS
+  | MAX
+  | LPAREN
+  | LETREC
+  | LET
+  | LBRACE
+  | LANGLE
+  | ISZERO
+  | INT of int
+  | IN
+  | IF
+  | ID of string
+  | FST
+  | EQUALS
+  | EOF
+  | END
+  | ELSE
+  | DOT
+  | DIVIDED
+  | DEREF
+  | DEBUG
+  | COMMA
+  | BEGIN
+val menhir_begin_marker : int
+val xv_separated_nonempty_list_SEMICOLON_field_ : (string * Ast.expr) list
+val xv_separated_nonempty_list_SEMICOLON_expr_ : Ast.expr list
+val xv_separated_nonempty_list_COMMA_expr_ : Ast.expr list
+val xv_separated_nonempty_list_COMMA_ID_ : string list
+val xv_separated_list_SEMICOLON_field_ : (string * Ast.expr) list
+val xv_separated_list_SEMICOLON_expr_ : Ast.expr list
+val xv_separated_list_COMMA_expr_ : Ast.expr list
+val xv_separated_list_COMMA_ID_ : string list
+val xv_prog : Ast.expr
+val xv_loption_separated_nonempty_list_SEMICOLON_field__ :
+  (string * Ast.expr) list
+val xv_loption_separated_nonempty_list_SEMICOLON_expr__ : Ast.expr list
+val xv_loption_separated_nonempty_list_COMMA_expr__ : Ast.expr list
+val xv_loption_separated_nonempty_list_COMMA_ID__ : string list
+val xv_ids : string list
+val xv_field : string * Ast.expr
+val xv_exprs_comma : Ast.expr list
+val xv_exprs : Ast.expr list
+val xv_expr : Ast.expr
+val menhir_end_marker : int

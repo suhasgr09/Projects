@@ -1,0 +1,155 @@
+# dune ut
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/suhas/Documents/ClassWork/CS510/hw6/Submit/hw6_stub
+# Auto-detected concurrency: 8
+$ /Users/suhas/.opam/default/bin/ocamlc.opt -config > /var/folders/ql/jdnz0_y121qd3ygf1cndzbtm0000gn/T/dune_6962ff_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/Users/suhas/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/Users/suhas/.opam/default/bin"
+#  ; ocaml = Ok External "/Users/suhas/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/Users/suhas/.opam/default/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/suhas/.opam/default/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/suhas/.opam/default/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/suhas/.opam/default/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/suhas/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/suhas/.opam/default/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/suhas/Documents/ClassWork/CS510/hw6/Submit/hw6_stub"
+#        ; "INSIDE_DUNE" :
+#            "/Users/suhas/Documents/ClassWork/CS510/hw6/Submit/hw6_stub/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/suhas/Documents/ClassWork/CS510/hw6/Submit/hw6_stub/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/suhas/Documents/ClassWork/CS510/hw6/Submit/hw6_stub/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/suhas/Documents/ClassWork/CS510/hw6/Submit/hw6_stub/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths = [ External "/Users/suhas/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.14.0"
+#      ; standard_library_default = "/Users/suhas/.opam/default/lib/ocaml"
+#      ; standard_library = "/Users/suhas/.opam/default/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin21.6.0"
+#      ; target = "aarch64-apple-darwin21.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X031"
+#      ; cmi_magic_number = "Caml1999I031"
+#      ; cmo_magic_number = "Caml1999O031"
+#      ; cma_magic_number = "Caml1999A031"
+#      ; cmx_magic_number = "Caml1999Y031"
+#      ; cmxa_magic_number = "Caml1999Z031"
+#      ; ast_impl_magic_number = "Caml1999M031"
+#      ; ast_intf_magic_number = "Caml1999N031"
+#      ; cmxs_magic_number = "Caml1999D031"
+#      ; cmt_magic_number = "Caml1999T031"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -o src/.tsool.objs/byte/tsool.cmo -c -impl src/tsool.ml-gen)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/store.ml) > _build/default/src/.tsool.objs/store.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/ast.ml) > _build/default/src/.tsool.objs/ast.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/ds.ml) > _build/default/src/.tsool.objs/ds.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/interp.ml) > _build/default/src/.tsool.objs/interp.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/reM.ml) > _build/default/src/.tsool.objs/reM.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamllex -q -o src/lexer.ml src/lexer.mll)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/menhir src/parser.mly --base src/parser --infer-write-query src/parser__mock.ml.mock)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -intf src/store.mli) > _build/default/src/.tsool.objs/store.mli.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__ReM.cmo -c -impl src/reM.ml)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/lexer.ml) > _build/default/src/.tsool.objs/lexer.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Ast.cmo -c -impl src/ast.ml)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/parser__mock.ml.mock) > _build/default/src/.tsool.objs/parser__mock.ml.mock.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Ds.cmo -c -impl src/ds.ml)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Store.cmi -c -intf src/store.mli)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -intf-suffix .ml -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Store.cmo -c -impl src/store.ml)
+$ (cd _build/.sandbox/a1048feedf59a2e3b2bcbc4fb5919972/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.tsool.objs/byte -open Tsool -short-paths -i -impl src/parser__mock.ml.mock) > _build/.sandbox/a1048feedf59a2e3b2bcbc4fb5919972/default/src/parser__mock.mli.inferred
+$ (cd _build/default && /Users/suhas/.opam/default/bin/menhir src/parser.mly --base src/parser --infer-read-reply src/parser__mock.mli.inferred)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -intf src/parser.mli) > _build/default/src/.tsool.objs/parser.mli.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Parser.cmi -c -intf src/parser.mli)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Lexer.cmo -c -impl src/lexer.ml)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamldep.opt -modules -impl src/parser.ml) > _build/default/src/.tsool.objs/parser.ml.d
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Interp.cmo -c -impl src/interp.ml)
+> File "src/interp.ml", line 74, characters 24-31:
+> 74 |         | Some (_super, methods, fields) ->
+>                              ^^^^^^^
+> Warning 27 [unused-var-strict]: unused variable methods.
+> File "src/interp.ml", line 74, characters 33-39:
+> 74 |         | Some (_super, methods, fields) ->
+>                                       ^^^^^^
+> Warning 27 [unused-var-strict]: unused variable fields.
+> File "src/interp.ml", line 287, characters 41-44:
+> 287 |     obj_of_objectVal self >>= fun(c_name,env) ->
+>                                                ^^^
+> Warning 27 [unused-var-strict]: unused variable env.
+> File "src/interp.ml", line 295, characters 51-54:
+> 295 |         is_subclass c_name id !g_class_env >>= fun e_r ->
+>                                                          ^^^
+> Warning 27 [unused-var-strict]: unused variable e_r.
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I src/.utop/.utop.eobjs/byte -I /Users/suhas/.opam/default/lib/findlib -I /Users/suhas/.opam/default/lib/lambda-term -I /Users/suhas/.opam/default/lib/logs -I /Users/suhas/.opam/default/lib/lwt -I /Users/suhas/.opam/default/lib/lwt/unix -I /Users/suhas/.opam/default/lib/lwt_react -I /Users/suhas/.opam/default/lib/mew -I /Users/suhas/.opam/default/lib/mew_vi -I /Users/suhas/.opam/default/lib/ocaml/compiler-libs -I /Users/suhas/.opam/default/lib/ocaml/threads -I /Users/suhas/.opam/default/lib/ocplib-endian -I /Users/suhas/.opam/default/lib/ocplib-endian/bigstring -I /Users/suhas/.opam/default/lib/react -I /Users/suhas/.opam/default/lib/result -I /Users/suhas/.opam/default/lib/trie -I /Users/suhas/.opam/default/lib/uchar -I /Users/suhas/.opam/default/lib/utop -I /Users/suhas/.opam/default/lib/uucp -I /Users/suhas/.opam/default/lib/uuseg -I /Users/suhas/.opam/default/lib/uutf -I /Users/suhas/.opam/default/lib/zed -I src/.tsool.objs/byte -no-alias-deps -o src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl src/.utop/utop.ml-gen)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.tsool.objs/byte -intf-suffix .ml -no-alias-deps -opaque -open Tsool -o src/.tsool.objs/byte/tsool__Parser.cmo -c -impl src/parser.ml)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -a -o src/tsool.cma src/.tsool.objs/byte/tsool.cmo src/.tsool.objs/byte/tsool__Ast.cmo src/.tsool.objs/byte/tsool__ReM.cmo src/.tsool.objs/byte/tsool__Ds.cmo src/.tsool.objs/byte/tsool__Store.cmo src/.tsool.objs/byte/tsool__Parser.cmo src/.tsool.objs/byte/tsool__Lexer.cmo src/.tsool.objs/byte/tsool__Interp.cmo)
+$ (cd _build/default && /Users/suhas/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o src/.utop/utop.exe -output-complete-exe /Users/suhas/.opam/default/lib/ocaml/compiler-libs/ocamlcommon.cma /Users/suhas/.opam/default/lib/ocaml/compiler-libs/ocamlbytecomp.cma /Users/suhas/.opam/default/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/suhas/.opam/default/lib/findlib/findlib.cma /Users/suhas/.opam/default/lib/findlib/findlib_top.cma /Users/suhas/.opam/default/lib/logs/logs.cma -I /Users/suhas/.opam/default/lib/ocaml /Users/suhas/.opam/default/lib/lwt/lwt.cma /Users/suhas/.opam/default/lib/logs/logs_lwt.cma /Users/suhas/.opam/default/lib/ocaml/unix.cma -I /Users/suhas/.opam/default/lib/ocaml /Users/suhas/.opam/default/lib/ocaml/bigarray.cma -I /Users/suhas/.opam/default/lib/ocaml /Users/suhas/.opam/default/lib/ocplib-endian/ocplib_endian.cma /Users/suhas/.opam/default/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /Users/suhas/.opam/default/lib/ocaml/threads/threads.cma -I /Users/suhas/.opam/default/lib/ocaml /Users/suhas/.opam/default/lib/lwt/unix/lwt_unix.cma -I /Users/suhas/.opam/default/lib/lwt/unix /Users/suhas/.opam/default/lib/react/react.cma /Users/suhas/.opam/default/lib/lwt_react/lwt_react.cma /Users/suhas/.opam/default/lib/result/result.cma /Users/suhas/.opam/default/lib/uutf/uutf.cma /Users/suhas/.opam/default/lib/uucp/uucp.cma /Users/suhas/.opam/default/lib/uuseg/uuseg.cma /Users/suhas/.opam/default/lib/zed/zed.cma /Users/suhas/.opam/default/lib/trie/trie.cma /Users/suhas/.opam/default/lib/mew/mew.cma /Users/suhas/.opam/default/lib/mew_vi/mew_vi.cma /Users/suhas/.opam/default/lib/lambda-term/lambda_term.cma -I /Users/suhas/.opam/default/lib/lambda-term /Users/suhas/.opam/default/lib/utop/uTop.cma src/tsool.cma src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

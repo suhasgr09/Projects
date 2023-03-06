@@ -1,0 +1,8 @@
+README!
+
+RDF.xml 	  - The Schema FIle 
+alloutput.txt     - Console Output file 
+n3.txt 		  -  N3 Notation file
+owl.jar		  - jar file 
+triples.txt       - N triples files 
+Queries.txt       - All the queries

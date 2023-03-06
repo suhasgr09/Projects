@@ -1,0 +1,26 @@
+(** @canonical Tsool.Ast *)
+module Ast = Tsool__Ast
+
+
+(** @canonical Tsool.Ds *)
+module Ds = Tsool__Ds
+
+
+(** @canonical Tsool.Interp *)
+module Interp = Tsool__Interp
+
+
+(** @canonical Tsool.Lexer *)
+module Lexer = Tsool__Lexer
+
+
+(** @canonical Tsool.Parser *)
+module Parser = Tsool__Parser
+
+
+(** @canonical Tsool.ReM *)
+module ReM = Tsool__ReM
+
+
+(** @canonical Tsool.Store *)
+module Store = Tsool__Store

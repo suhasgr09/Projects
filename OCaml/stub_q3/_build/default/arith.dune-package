@@ -1,0 +1,63 @@
+(lang dune 3.4)
+(name arith)
+(sections (lib .) (libexec .))
+(files
+ (lib
+  (META
+   arith.a
+   arith.cma
+   arith.cmi
+   arith.cmt
+   arith.cmx
+   arith.cmxa
+   arith.ml
+   arith__Ast.cmi
+   arith__Ast.cmt
+   arith__Ast.cmx
+   arith__Ds.cmi
+   arith__Ds.cmt
+   arith__Ds.cmx
+   arith__Interp.cmi
+   arith__Interp.cmt
+   arith__Interp.cmx
+   arith__Lexer.cmi
+   arith__Lexer.cmt
+   arith__Lexer.cmx
+   arith__Parser.cmi
+   arith__Parser.cmt
+   arith__Parser.cmti
+   arith__Parser.cmx
+   ast.ml
+   ds.ml
+   dune-package
+   interp.ml
+   lexer.ml
+   opam
+   parser.ml
+   parser.mli))
+ (libexec (arith.cmxs)))
+(library
+ (name arith)
+ (kind normal)
+ (synopsis "Interpreter for ARITH")
+ (archives (byte arith.cma) (native arith.cmxa))
+ (plugins (byte arith.cma) (native arith.cmxs))
+ (native_archives arith.a)
+ (main_module_name Arith)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Arith)
+   (modules
+    ((name Ast) (obj_name arith__Ast) (visibility public) (impl))
+    ((name Ds) (obj_name arith__Ds) (visibility public) (impl))
+    ((name Interp) (obj_name arith__Interp) (visibility public) (impl))
+    ((name Lexer) (obj_name arith__Lexer) (visibility public) (impl))
+    ((name Parser) (obj_name arith__Parser) (visibility public) (impl) (intf)))
+   (alias_module
+    (name Arith)
+    (obj_name arith)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

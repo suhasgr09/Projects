@@ -1,0 +1,37 @@
+
+(* Add Last exercise *)
+
+let l1 = { head <= 0; size <= 0} (* 0 in head signals null *)
+
+in let add_front = proc (a) { proc (b) {
+   	      begin
+	         b.head <= { data <=a; next <= b.head };
+		       b.size <= b.size+1
+           end
+	      } }
+in letrec add_last_helper(l) = proc (x) { proc (y) {
+
+    (*Check if the list next has data*)
+    if (number?(l.next)) 
+    
+    (*Since the next note is enmpty we assign the new value to next*)
+    then begin l.next <= { data <=x; next <= 0 }; y.size <= y.size+1 end 
+    
+    (*Since the Next has data it will loop through the rest of the list*)
+    else (((add_last_helper l.next) x) y)
+  }}
+in let add_last = proc (ll)
+ { proc (c) {
+    if (number?(ll.head))
+    then ((add_front c) ll)
+    else (((add_last_helper ll.head) c) ll)
+  }}
+
+in begin
+     ((add_last l1) 2);
+     ((add_last l1) 3);
+     ((add_last l1) 4);
+     debug(l1)  (* required inspect the list *)
+end
+
+(*Concept is similar to the ll.ml exercise we implemented in class and last qui*)

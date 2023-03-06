@@ -1,0 +1,42 @@
+type token =
+    TIMES
+  | THEN
+  | SET_ARRAY
+  | SETREF
+  | SET
+  | SEMICOLON
+  | RPAREN
+  | RBRACE
+  | PROC
+  | PLUS
+  | NEWREF
+  | MINUS
+  | MAKE_ARRAY
+  | LPAREN
+  | LETREC
+  | LET
+  | LENGTH_ARRAY
+  | LBRACE
+  | ISZERO
+  | INT of int
+  | IN
+  | IF
+  | ID of string
+  | GET_ARRAY
+  | EQUALS
+  | EOF
+  | END
+  | ELSE
+  | DIVIDED
+  | DEREF
+  | DEBUG
+  | COMMA
+  | BEGIN
+val menhir_begin_marker : int
+val xv_separated_nonempty_list_SEMICOLON_expr_ : Ast.expr list
+val xv_separated_list_SEMICOLON_expr_ : Ast.expr list
+val xv_prog : Ast.expr
+val xv_loption_separated_nonempty_list_SEMICOLON_expr__ : Ast.expr list
+val xv_exprs : Ast.expr list
+val xv_expr : Ast.expr
+val menhir_end_marker : int

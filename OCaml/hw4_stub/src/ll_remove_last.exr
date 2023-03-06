@@ -1,0 +1,35 @@
+(* Remove Last exercise *)
+
+let l1 = { head <= 0; size <= 0} (* 0 in head signals null *)
+in let add_front = proc (x) { proc (l) {
+   	      begin
+	         l.head <={ data <=x; next <= l.head };
+		 l.size <= l.size+1
+              end
+	      } }
+
+in letrec remove_last_helper(l) = proc (y) {
+    (*Check if the list next has data*)
+    if (number?(l.next.next))
+    
+        (*Since the next note is enmpty we remove the value and assign null*)
+    then begin l.next <= 0; y.size <= y.size-1 end
+    else ((remove_last_helper l.next) y)
+  }
+
+in let remove_last = proc (ll)
+  {
+    if (number?(ll.head.next))
+    then begin ll.head <= ll.head.next; ll.size <= ll.size-1 end
+    else ((remove_last_helper ll.head) ll)
+  }
+
+in begin
+     ((add_front 2) l1);
+     ((add_front 3) l1);
+     ((add_front 4) l1);
+     (remove_last l1);
+     debug(l1)  (* required inspect the list *)
+   end
+
+   (*Concept is similar to the ll.ml exercise we implemented in class and last quiz*)

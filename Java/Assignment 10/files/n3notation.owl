@@ -1,0 +1,249 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns0: <http://edu.stevens.cs548/clinic#/> .
+
+<http://edu.stevens.cs548/clinic#/PatientId>
+  a rdf:Property ;
+  rdfs:domain <http://edu.stevens.cs548/clinic#/Patient> ;
+  owl:equivalentClass [
+    owl:FunctionalProperty <http://edu.stevens.cs548/clinic#/Patient> ;
+    owl:inverseFunctionalProperty <http://edu.stevens.cs548/clinic#/Patient> ;
+    a owl:Restriction
+  ] .
+
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment1>
+  a <http://edu.stevens.cs548/clinic#/Radiology> ;
+  ns0:ProvidedBy ns0:Martha ;
+  ns0:ReceivedBy ns0:Stewie .
+
+ns0:RadiologistProvided
+  rdfs:subClassOf ns0:Treatment ;
+  owl:equivalentClass [
+    owl:OnProperty ns0:ProvidedBy ;
+    owl:HasValue ns0:Radiologists ;
+    a owl:Restriction
+  ] ;
+  a owl:Class .
+
+ns0:InverseOfReceivedBy
+  owl:inverseOf ns0:ReceivedBy ;
+  a owl:ObjectProperty .
+
+ns0:Treatment
+  rdfs:subClassOf owl:Clinic ;
+  a owl:Class .
+
+ns0:ProvidedBy
+  rdfs:range ns0:Provider ;
+  rdfs:domain ns0:Treatment ;
+  a owl:ObjectProperty .
+
+ns0:ReceivedBy
+  a owl:ObjectProperty ;
+  rdfs:range ns0:Patient ;
+  rdfs:domain ns0:Treatment .
+
+ns0:RadiologyPatient
+  rdfs:subClassOf ns0:Patient ;
+  owl:equivalentClass [
+    owl:HasValue ns0:Radiology ;
+    owl:OnProperty ns0:InverseOfReceivedBy ;
+    a owl:Restriction
+  ] ;
+  a owl:Class .
+
+ns0:Surgeons a ns0:Provider .
+ns0:Martha a ns0:Radiologists .
+ns0:Surgery rdfs:subClassOf ns0:Treatment .
+ns0:Radiology rdfs:subClassOf ns0:Treatment .
+ns0:Provider
+  rdfs:subClassOf owl:Clinic ;
+  a owl:Class .
+
+ns0:DrugTreatment rdfs:subClassOf ns0:Treatment .
+ns0:Radiologists a ns0:Provider .
+ns0:Patient
+  a owl:Class ;
+  rdfs:subClassOf owl:Clinic .
+
+ns0:RadiologyTreatment2
+  a ns0:Radiology ;
+  ns0:ProvidedBy ns0:Jack ;
+  ns0:ReceivedBy ns0:Jake .
+
+ns0:Stewie a ns0:RadiologyPatient .
+ns0:Jake a ns0:RadiologyPatient .
+ns0:Jack a ns0:Radiologists .
+ns0:Internists a ns0:Provider .
+
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ns0="http://edu.stevens.cs548/clinic#/">
+
+  <rdf:Property rdf:about="http://edu.stevens.cs548/clinic#/PatientId">
+    <rdfs:domain rdf:resource="http://edu.stevens.cs548/clinic#/Patient"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:FunctionalProperty rdf:resource="http://edu.stevens.cs548/clinic#/Patient"/>
+        <owl:inverseFunctionalProperty rdf:resource="http://edu.stevens.cs548/clinic#/Patient"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </rdf:Property>
+
+  <rdf:Description rdf:about="http://edu.stevens.cs548/clinic#/RadiologyTreatment1">
+    <rdf:type rdf:resource="http://edu.stevens.cs548/clinic#/Radiology"/>
+    <ns0:ProvidedBy>
+      <ns0:Radiologists rdf:about="http://edu.stevens.cs548/clinic#/Martha">
+      </ns0:Radiologists>
+    </ns0:ProvidedBy>
+
+    <ns0:ReceivedBy>
+      <ns0:RadiologyPatient rdf:about="http://edu.stevens.cs548/clinic#/Stewie">
+      </ns0:RadiologyPatient>
+    </ns0:ReceivedBy>
+
+  </rdf:Description>
+
+  <owl:Class rdf:about="http://edu.stevens.cs548/clinic#/RadiologistProvided">
+    <rdfs:subClassOf rdf:resource="http://edu.stevens.cs548/clinic#/Treatment"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:OnProperty>
+          <owl:ObjectProperty rdf:about="http://edu.stevens.cs548/clinic#/ProvidedBy">
+            <rdfs:range rdf:resource="http://edu.stevens.cs548/clinic#/Provider"/>
+            <rdfs:domain rdf:resource="http://edu.stevens.cs548/clinic#/Treatment"/>
+          </owl:ObjectProperty>
+        </owl:OnProperty>
+
+        <owl:HasValue rdf:resource="http://edu.stevens.cs548/clinic#/Radiologists"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="http://edu.stevens.cs548/clinic#/InverseOfReceivedBy">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://edu.stevens.cs548/clinic#/ReceivedBy">
+        <rdfs:range rdf:resource="http://edu.stevens.cs548/clinic#/Patient"/>
+        <rdfs:domain rdf:resource="http://edu.stevens.cs548/clinic#/Treatment"/>
+      </owl:ObjectProperty>
+    </owl:inverseOf>
+
+  </owl:ObjectProperty>
+
+  <owl:Class rdf:about="http://edu.stevens.cs548/clinic#/Treatment">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Clinic"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://edu.stevens.cs548/clinic#/RadiologyPatient">
+    <rdfs:subClassOf rdf:resource="http://edu.stevens.cs548/clinic#/Patient"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:HasValue rdf:resource="http://edu.stevens.cs548/clinic#/Radiology"/>
+        <owl:OnProperty rdf:resource="http://edu.stevens.cs548/clinic#/InverseOfReceivedBy"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </owl:Class>
+
+  <ns0:Provider rdf:about="http://edu.stevens.cs548/clinic#/Surgeons">
+  </ns0:Provider>
+
+  <rdf:Description rdf:about="http://edu.stevens.cs548/clinic#/Surgery">
+    <rdfs:subClassOf rdf:resource="http://edu.stevens.cs548/clinic#/Treatment"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://edu.stevens.cs548/clinic#/Radiology">
+    <rdfs:subClassOf rdf:resource="http://edu.stevens.cs548/clinic#/Treatment"/>
+  </rdf:Description>
+
+  <owl:Class rdf:about="http://edu.stevens.cs548/clinic#/Provider">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Clinic"/>
+  </owl:Class>
+
+  <rdf:Description rdf:about="http://edu.stevens.cs548/clinic#/DrugTreatment">
+    <rdfs:subClassOf rdf:resource="http://edu.stevens.cs548/clinic#/Treatment"/>
+  </rdf:Description>
+
+  <ns0:Provider rdf:about="http://edu.stevens.cs548/clinic#/Radiologists">
+  </ns0:Provider>
+
+  <owl:Class rdf:about="http://edu.stevens.cs548/clinic#/Patient">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Clinic"/>
+  </owl:Class>
+
+  <ns0:Radiology rdf:about="http://edu.stevens.cs548/clinic#/RadiologyTreatment2">
+    <ns0:ProvidedBy>
+      <ns0:Radiologists rdf:about="http://edu.stevens.cs548/clinic#/Jack">
+      </ns0:Radiologists>
+    </ns0:ProvidedBy>
+
+    <ns0:ReceivedBy>
+      <ns0:RadiologyPatient rdf:about="http://edu.stevens.cs548/clinic#/Jake">
+      </ns0:RadiologyPatient>
+    </ns0:ReceivedBy>
+
+  </ns0:Radiology>
+
+  <ns0:Provider rdf:about="http://edu.stevens.cs548/clinic#/Internists">
+  </ns0:Provider>
+
+</rdf:RDF>
+
+
+
+<http://edu.stevens.cs548/clinic#/PatientId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://edu.stevens.cs548/clinic#/PatientId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://edu.stevens.cs548/clinic#/Patient> .
+<http://edu.stevens.cs548/clinic#/PatientId> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://edu.stevens.cs548/clinic#/Patient> .
+_:genid1 <http://www.w3.org/2002/07/owl#inverseFunctionalProperty> <http://edu.stevens.cs548/clinic#/Patient> .
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Radiology> .
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment1> <http://edu.stevens.cs548/clinic#/ProvidedBy> <http://edu.stevens.cs548/clinic#/Martha> .
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment1> <http://edu.stevens.cs548/clinic#/ReceivedBy> <http://edu.stevens.cs548/clinic#/Stewie> .
+<http://edu.stevens.cs548/clinic#/Martha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Radiologists> .
+<http://edu.stevens.cs548/clinic#/Stewie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/RadiologyPatient> .
+<http://edu.stevens.cs548/clinic#/RadiologistProvided> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edu.stevens.cs548/clinic#/RadiologistProvided> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edu.stevens.cs548/clinic#/Treatment> .
+<http://edu.stevens.cs548/clinic#/RadiologistProvided> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#OnProperty> <http://edu.stevens.cs548/clinic#/ProvidedBy> .
+_:genid2 <http://www.w3.org/2002/07/owl#HasValue> <http://edu.stevens.cs548/clinic#/Radiologists> .
+<http://edu.stevens.cs548/clinic#/ProvidedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://edu.stevens.cs548/clinic#/ProvidedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://edu.stevens.cs548/clinic#/Provider> .
+<http://edu.stevens.cs548/clinic#/ProvidedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://edu.stevens.cs548/clinic#/Treatment> .
+<http://edu.stevens.cs548/clinic#/InverseOfReceivedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://edu.stevens.cs548/clinic#/InverseOfReceivedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://edu.stevens.cs548/clinic#/ReceivedBy> .
+<http://edu.stevens.cs548/clinic#/ReceivedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://edu.stevens.cs548/clinic#/ReceivedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://edu.stevens.cs548/clinic#/Patient> .
+<http://edu.stevens.cs548/clinic#/ReceivedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://edu.stevens.cs548/clinic#/Treatment> .
+<http://edu.stevens.cs548/clinic#/Treatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edu.stevens.cs548/clinic#/Treatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Clinic> .
+<http://edu.stevens.cs548/clinic#/RadiologyPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edu.stevens.cs548/clinic#/RadiologyPatient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edu.stevens.cs548/clinic#/Patient> .
+<http://edu.stevens.cs548/clinic#/RadiologyPatient> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#HasValue> <http://edu.stevens.cs548/clinic#/Radiology> .
+_:genid3 <http://www.w3.org/2002/07/owl#OnProperty> <http://edu.stevens.cs548/clinic#/InverseOfReceivedBy> .
+<http://edu.stevens.cs548/clinic#/Surgeons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Provider> .
+<http://edu.stevens.cs548/clinic#/Surgery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edu.stevens.cs548/clinic#/Treatment> .
+<http://edu.stevens.cs548/clinic#/Radiology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edu.stevens.cs548/clinic#/Treatment> .
+<http://edu.stevens.cs548/clinic#/Provider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edu.stevens.cs548/clinic#/Provider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Clinic> .
+<http://edu.stevens.cs548/clinic#/DrugTreatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edu.stevens.cs548/clinic#/Treatment> .
+<http://edu.stevens.cs548/clinic#/Radiologists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Provider> .
+<http://edu.stevens.cs548/clinic#/Patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edu.stevens.cs548/clinic#/Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Clinic> .
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Radiology> .
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment2> <http://edu.stevens.cs548/clinic#/ProvidedBy> <http://edu.stevens.cs548/clinic#/Jack> .
+<http://edu.stevens.cs548/clinic#/RadiologyTreatment2> <http://edu.stevens.cs548/clinic#/ReceivedBy> <http://edu.stevens.cs548/clinic#/Jake> .
+<http://edu.stevens.cs548/clinic#/Jack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Radiologists> .
+<http://edu.stevens.cs548/clinic#/Jake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/RadiologyPatient> .
+<http://edu.stevens.cs548/clinic#/Internists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Provider> .
