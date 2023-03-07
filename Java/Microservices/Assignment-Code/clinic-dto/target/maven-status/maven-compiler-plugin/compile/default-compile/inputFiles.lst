@@ -1,0 +1,14 @@
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/DrugTreatmentDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/ProviderDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/GsonFactory.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/RuntimeTypeAdapterFactory.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/ProviderDtoFactory.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/PatientDtoFactory.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/TreatmentDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/LocalDateSerializer.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/PatientDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/TreatmentDtoFactory.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/PhysiotherapyTreatmentDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/SurgeryTreatmentDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/RadiologyTreatmentDto.java
+/Users/suhas/Documents/ClassWork/CS548/Assignment 7/Suhas Gorur Ravi Kumar/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/DateUtils.java

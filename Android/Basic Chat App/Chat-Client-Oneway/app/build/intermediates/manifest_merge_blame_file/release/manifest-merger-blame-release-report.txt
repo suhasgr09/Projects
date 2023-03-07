@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.stevens.cs522.chatclient"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:11:5-67
+14-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+15-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:12:5-70
+15-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:12:22-67
+16    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- Required for receiving MMS -->
+16-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:13:5-67
+16-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:13:22-64
+17    <!-- <uses-permission android:name="android.permission.RECEIVE_MMS" /> -->
+18    <!-- <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" /> -->
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:19:5-68
+19-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:19:22-65
+20
+21    <application
+21-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:9:5-23:19
+22        android:allowBackup="true"
+22-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:10:9-35
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:25:9-54
+27        android:supportsRtl="true"
+27-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:13:9-35
+28        android:theme="@style/AppTheme" >
+28-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:27:9-40
+29        <activity
+29-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:14:9-22:20
+30            android:name="edu.stevens.cs522.chatclient.activities.ChatClientActivity"
+30-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:15:13-58
+31            android:exported="true" >
+31-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:16:13-36
+32            <intent-filter>
+32-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:18:17-69
+33-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:20:17-77
+35-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/app/src/main/AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <receiver
+39-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:28:9-40:20
+40            android:name="edu.stevens.cs522.base.sms.ChatMessageReceiver"
+40-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:29:13-74
+41            android:enabled="true"
+41-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:30:13-35
+42            android:exported="true" >
+42-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:31:13-36
+43            <intent-filter>
+43-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:32:13-39:29
+44                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+44-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:33:17-82
+44-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:33:25-79
+45                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+45-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:34:17-81
+45-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:34:25-78
+46
+47                <!-- Required for MMS receiver -->
+48                <!-- <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" /> -->
+49                <!-- <data android:mimeType="application/vnd.wap.mms-message" /> -->
+50            </intent-filter>
+51        </receiver>
+52
+53        <service
+53-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:42:9-45:40
+54            android:name="edu.stevens.cs522.base.work.WorkIntentService"
+54-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:43:13-73
+55            android:enabled="true"
+55-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:44:13-35
+56            android:exported="false" />
+56-->[:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/71900da447dd087ad6fb436e4241cbef/transformed/cs522-library/AndroidManifest.xml:45:13-37
+57    </application>
+58
+59</manifest>

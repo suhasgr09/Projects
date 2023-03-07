@@ -1,0 +1,8 @@
+edu/stevens/cs548/clinic/micro/domain/rest/PatientMicroService.class
+edu/stevens/cs548/clinic/micro/domain/rest/TreatmentExporter.class
+edu/stevens/cs548/clinic/micro/domain/health/LivenessCheck.class
+edu/stevens/cs548/clinic/micro/domain/rest/ProviderMicroService.class
+edu/stevens/cs548/clinic/micro/domain/rest/AppConfig.class
+edu/stevens/cs548/clinic/micro/domain/rest/PatientMicroService$1.class
+edu/stevens/cs548/clinic/micro/domain/rest/ProviderMicroService$1.class
+edu/stevens/cs548/clinic/micro/domain/health/ReadinessCheck.class

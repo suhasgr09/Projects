@@ -1,0 +1,34 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.stevens.cs522.chatserver.test" >
+4
+5    <uses-sdk
+5-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:5:15-41
+7        android:targetSdkVersion="33" />
+7-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:11:5-15:78
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:11:22-83
+11        android:functionalTest="false"
+11-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:13:22-53
+13        android:label="Tests for edu.stevens.cs522.chatserver"
+13-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:15:22-76
+14        android:targetPackage="edu.stevens.cs522.chatserver" />
+14-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:12:22-74
+15
+16    <application
+16-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:7:5-9:19
+17        android:debuggable="true"
+18        android:extractNativeLibs="false" >
+19        <uses-library android:name="android.test.runner" />
+19-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:8:9-60
+19-->/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest756134494907477630.xml:8:23-57
+20    </application>
+21
+22</manifest>

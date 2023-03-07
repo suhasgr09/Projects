@@ -1,0 +1,140 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/suhas/.gradle/daemon/7.3.3/edu.stevens.cs522.chatserver.app-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,55,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,65,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,116,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "313,357,423,485,547,594,641,690,760,804,848,893,950,1003,1068,1122,1176,1233",
+                        "endColumns": "43,65,61,61,46,46,48,69,43,43,44,56,52,64,53,53,56,56",
+                        "endOffsets": "352,418,480,542,589,636,685,755,799,843,888,945,998,1063,1117,1171,1228,1285"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "1290",
+                        "endLines": "27",
+                        "endColumns": "12",
+                        "endOffsets": "1387"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "199,257",
+                        "endColumns": "57,55",
+                        "endOffsets": "252,308"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "edu.stevens.cs522.chatserver.app-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,55,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,72,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,123,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "313,357,430,492,554,601,648,697,767,811,855,900,957,1010,1075,1129,1183,1240",
+                        "endColumns": "43,72,61,61,46,46,48,69,43,43,44,56,52,64,53,53,56,56",
+                        "endOffsets": "352,425,487,549,596,643,692,762,806,850,895,952,1005,1070,1124,1178,1235,1292"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "1297",
+                        "endLines": "27",
+                        "endColumns": "12",
+                        "endOffsets": "1394"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "199,257",
+                        "endColumns": "57,55",
+                        "endOffsets": "252,308"
+                    }
+                }
+            ]
+        }
+    ]
+}

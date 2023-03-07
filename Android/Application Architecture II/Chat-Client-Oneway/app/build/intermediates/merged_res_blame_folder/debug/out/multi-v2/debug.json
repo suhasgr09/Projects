@@ -1,0 +1,101 @@
+{
+    "logs": [
+        {
+            "outputFile": "edu.stevens.cs522.chatclient.app-merged_res-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "7,6,17,10,14,15,13,8,4,9,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "234,177,657,374,534,591,472,278,129,325,706,776",
+                        "endColumns": "43,56,48,53,56,64,61,46,46,48,69,43",
+                        "endOffsets": "273,229,701,423,586,651,529,320,171,369,771,815"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "313,357,414,463,517,574,639,701,748,795,844,914",
+                        "endColumns": "43,56,48,53,56,64,61,46,46,48,69,43",
+                        "endOffsets": "352,409,458,512,569,634,696,743,790,839,909,953"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "186"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "958",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1055"
+                    }
+                },
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "199,257",
+                        "endColumns": "57,55",
+                        "endOffsets": "252,308"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "edu.stevens.cs522.chatclient.app-merged_res-5:/values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "57",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

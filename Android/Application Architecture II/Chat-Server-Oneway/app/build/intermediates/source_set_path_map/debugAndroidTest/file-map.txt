@@ -1,0 +1,7 @@
+edu.stevens.cs522.chatserver.test.app-androidTest-0 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/build/generated/res/resValues/androidTest/debug
+edu.stevens.cs522.chatserver.test.app-androidTest-1 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/build/generated/res/rs/androidTest/debug
+edu.stevens.cs522.chatserver.test.app-mergeDebugAndroidTestResources-2 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+edu.stevens.cs522.chatserver.test.app-mergeDebugAndroidTestResources-3 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+edu.stevens.cs522.chatserver.test.app-merged_res-4 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/build/intermediates/merged_res/debugAndroidTest
+edu.stevens.cs522.chatserver.test.app-androidTest-5 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/androidTest/res
+edu.stevens.cs522.chatserver.test.app-androidTestDebug-6 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/androidTestDebug/res

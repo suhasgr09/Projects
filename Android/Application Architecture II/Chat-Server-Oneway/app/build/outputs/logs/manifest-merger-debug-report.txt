@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/suhas/.gradle/caches/transforms-3/687e92356b234f76145bee94fbb8ff2c/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/suhas/.gradle/caches/transforms-3/c6654094991bfc47573aa982cff2ea1c/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.5] /Users/suhas/.gradle/caches/transforms-3/7f92c036ce1863726560d0c42f6f4bbe/transformed/fragment-1.5.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/suhas/.gradle/caches/transforms-3/9ec4ee02e6192520aa01e02074f572bf/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/suhas/.gradle/caches/transforms-3/3bc14027e3271addbd104e62a121e1f3/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/suhas/.gradle/caches/transforms-3/367789d21f8395d0d2535ca2cf256883/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/suhas/.gradle/caches/transforms-3/f94025579e5a4c230bbba5aa7dd1079d/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/suhas/.gradle/caches/transforms-3/aa3d2d395a3e19490414bd5734465635/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/suhas/.gradle/caches/transforms-3/3bc05c5cb8f8db139d32045463e80927/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/suhas/.gradle/caches/transforms-3/e61aebfeb56ef322723d3d6e9268ff03/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/suhas/.gradle/caches/transforms-3/37a7f81d13065522cc4b583bfef5b5b3/transformed/core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.8.0] /Users/suhas/.gradle/caches/transforms-3/6cedb7fad973482ec2e23e056b07f8f1/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/suhas/.gradle/caches/transforms-3/e9c0667ffb0f5abbc13f0e6ed5d96563/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/suhas/.gradle/caches/transforms-3/0671bb7bb856238b78c07173458201df/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/suhas/.gradle/caches/transforms-3/c44a24eb114b00d4ae0b944c5b3b714e/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-guava:2.5.0] /Users/suhas/.gradle/caches/transforms-3/74df7c69026ccea25855e9f15df4d86d/transformed/room-guava-2.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suhas/.gradle/caches/transforms-3/8ef30433ab1bf62a45c58ef3e0560ed0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/suhas/.gradle/caches/transforms-3/75ee34e9d1f114d6ffc9ab3d2a088bd1/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/suhas/.gradle/caches/transforms-3/fa0a7dac24e9c7371b8418ae60eea53b/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/suhas/.gradle/caches/transforms-3/1556c6a64b16add65af90c573c907e2d/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/suhas/.gradle/caches/transforms-3/3c71d227c2761b15e5fdb1ee9249e03c/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/suhas/.gradle/caches/transforms-3/cf14bdd1ce1ba3749ee43d2b49e183dc/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:7:5-9:40
+	tools:ignore
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:9:9-37
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:8:9-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:9:5-67
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:10:5-79
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:12:22-76
+application
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:14:5-31:19
+MERGED from [androidx.core:core:1.8.0] /Users/suhas/.gradle/caches/transforms-3/6cedb7fad973482ec2e23e056b07f8f1/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/suhas/.gradle/caches/transforms-3/6cedb7fad973482ec2e23e056b07f8f1/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:21:5-46:19
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:21:5-46:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suhas/.gradle/caches/transforms-3/8ef30433ab1bf62a45c58ef3e0560ed0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suhas/.gradle/caches/transforms-3/8ef30433ab1bf62a45c58ef3e0560ed0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/suhas/.gradle/caches/transforms-3/6cedb7fad973482ec2e23e056b07f8f1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:19:9-40
+activity#edu.stevens.cs522.chatserver.activities.ChatServerActivity
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:20:9-28:20
+	android:exported
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:21:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:26:27-74
+activity#edu.stevens.cs522.chatserver.activities.ViewPeersActivity
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:29:9-65
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:29:19-63
+activity#edu.stevens.cs522.chatserver.activities.ViewPeerActivity
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:30:9-64
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:30:19-62
+uses-sdk
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/suhas/.gradle/caches/transforms-3/687e92356b234f76145bee94fbb8ff2c/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/suhas/.gradle/caches/transforms-3/687e92356b234f76145bee94fbb8ff2c/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/suhas/.gradle/caches/transforms-3/c6654094991bfc47573aa982cff2ea1c/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/suhas/.gradle/caches/transforms-3/c6654094991bfc47573aa982cff2ea1c/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.5] /Users/suhas/.gradle/caches/transforms-3/7f92c036ce1863726560d0c42f6f4bbe/transformed/fragment-1.5.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.5] /Users/suhas/.gradle/caches/transforms-3/7f92c036ce1863726560d0c42f6f4bbe/transformed/fragment-1.5.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/suhas/.gradle/caches/transforms-3/9ec4ee02e6192520aa01e02074f572bf/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/suhas/.gradle/caches/transforms-3/9ec4ee02e6192520aa01e02074f572bf/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/suhas/.gradle/caches/transforms-3/3bc14027e3271addbd104e62a121e1f3/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/suhas/.gradle/caches/transforms-3/3bc14027e3271addbd104e62a121e1f3/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/suhas/.gradle/caches/transforms-3/367789d21f8395d0d2535ca2cf256883/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/suhas/.gradle/caches/transforms-3/367789d21f8395d0d2535ca2cf256883/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/suhas/.gradle/caches/transforms-3/f94025579e5a4c230bbba5aa7dd1079d/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/suhas/.gradle/caches/transforms-3/f94025579e5a4c230bbba5aa7dd1079d/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/suhas/.gradle/caches/transforms-3/aa3d2d395a3e19490414bd5734465635/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/suhas/.gradle/caches/transforms-3/aa3d2d395a3e19490414bd5734465635/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/suhas/.gradle/caches/transforms-3/3bc05c5cb8f8db139d32045463e80927/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/suhas/.gradle/caches/transforms-3/3bc05c5cb8f8db139d32045463e80927/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/suhas/.gradle/caches/transforms-3/e61aebfeb56ef322723d3d6e9268ff03/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/suhas/.gradle/caches/transforms-3/e61aebfeb56ef322723d3d6e9268ff03/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/suhas/.gradle/caches/transforms-3/37a7f81d13065522cc4b583bfef5b5b3/transformed/core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/suhas/.gradle/caches/transforms-3/37a7f81d13065522cc4b583bfef5b5b3/transformed/core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.8.0] /Users/suhas/.gradle/caches/transforms-3/6cedb7fad973482ec2e23e056b07f8f1/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/suhas/.gradle/caches/transforms-3/6cedb7fad973482ec2e23e056b07f8f1/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/suhas/.gradle/caches/transforms-3/e9c0667ffb0f5abbc13f0e6ed5d96563/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/suhas/.gradle/caches/transforms-3/e9c0667ffb0f5abbc13f0e6ed5d96563/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/suhas/.gradle/caches/transforms-3/0671bb7bb856238b78c07173458201df/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/suhas/.gradle/caches/transforms-3/0671bb7bb856238b78c07173458201df/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/suhas/.gradle/caches/transforms-3/c44a24eb114b00d4ae0b944c5b3b714e/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/suhas/.gradle/caches/transforms-3/c44a24eb114b00d4ae0b944c5b3b714e/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-guava:2.5.0] /Users/suhas/.gradle/caches/transforms-3/74df7c69026ccea25855e9f15df4d86d/transformed/room-guava-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-guava:2.5.0] /Users/suhas/.gradle/caches/transforms-3/74df7c69026ccea25855e9f15df4d86d/transformed/room-guava-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:5:5-7:41
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suhas/.gradle/caches/transforms-3/8ef30433ab1bf62a45c58ef3e0560ed0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suhas/.gradle/caches/transforms-3/8ef30433ab1bf62a45c58ef3e0560ed0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/suhas/.gradle/caches/transforms-3/75ee34e9d1f114d6ffc9ab3d2a088bd1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/suhas/.gradle/caches/transforms-3/75ee34e9d1f114d6ffc9ab3d2a088bd1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/suhas/.gradle/caches/transforms-3/fa0a7dac24e9c7371b8418ae60eea53b/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/suhas/.gradle/caches/transforms-3/fa0a7dac24e9c7371b8418ae60eea53b/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/suhas/.gradle/caches/transforms-3/1556c6a64b16add65af90c573c907e2d/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/suhas/.gradle/caches/transforms-3/1556c6a64b16add65af90c573c907e2d/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/suhas/.gradle/caches/transforms-3/3c71d227c2761b15e5fdb1ee9249e03c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/suhas/.gradle/caches/transforms-3/3c71d227c2761b15e5fdb1ee9249e03c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/suhas/.gradle/caches/transforms-3/cf14bdd1ce1ba3749ee43d2b49e183dc/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/suhas/.gradle/caches/transforms-3/cf14bdd1ce1ba3749ee43d2b49e183dc/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/suhas/.gradle/caches/transforms-3/cbe29b2933b760da93a7f56f17896529/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+uses-permission#android.permission.READ_SMS
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:12:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:19:22-65
+receiver#edu.stevens.cs522.base.sms.ChatMessageReceiver
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:28:9-40:20
+	android:enabled
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:29:13-74
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER+action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:32:13-39:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:33:25-79
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:34:25-78
+service#edu.stevens.cs522.base.work.WorkIntentService
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:42:9-45:40
+	android:enabled
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW5/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml:43:13-73

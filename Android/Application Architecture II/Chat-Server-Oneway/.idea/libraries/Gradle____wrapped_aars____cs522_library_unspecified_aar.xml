@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __wrapped_aars__::cs522-library:unspecified@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/res" />
+      <root url="jar://$PROJECT_DIR$/cs522-library/build/.transforms/e85af2132f497c224750805d96813443/transformed/cs522-library/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

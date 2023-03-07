@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:21:5-46:19
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:21:5-46:19
+	android:supportsRtl
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:10:9-40
+activity#edu.stevens.cs522.chatserver.activities.ViewPeerActivity
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:11:9-65
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:11:19-62
+activity#edu.stevens.cs522.chatserver.activities.ViewPeersActivity
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:12:9-66
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:12:19-63
+activity#edu.stevens.cs522.chatserver.activities.ChatServerActivity
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:13:9-21:20
+	android:exported
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:14:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:5:5-7:41
+MERGED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_SMS
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:12:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:19:22-65
+receiver#edu.stevens.cs522.base.sms.ChatMessageReceiver
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:28:9-40:20
+	android:enabled
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:29:13-74
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER+action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:32:13-39:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:33:25-79
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:34:25-78
+service#edu.stevens.cs522.base.work.WorkIntentService
+ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:42:9-45:40
+	android:enabled
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [:cs522-library] /Users/suhas/Documents/Stevens/ClassWork/Apps/HW2/Assignment-Code/Chat-Server-Oneway/cs522-library/build/.transforms/d2cceab09d25812dafdd23bc69be8367/transformed/cs522-library/AndroidManifest.xml:43:13-73

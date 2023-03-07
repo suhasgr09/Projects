@@ -1,0 +1,9 @@
+edu.stevens.cs522.chatclient.app-pngs-0 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/build/generated/res/pngs/debug
+edu.stevens.cs522.chatclient.app-resValues-1 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/build/generated/res/resValues/debug
+edu.stevens.cs522.chatclient.app-rs-2 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/build/generated/res/rs/debug
+edu.stevens.cs522.chatclient.app-mergeDebugResources-3 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+edu.stevens.cs522.chatclient.app-mergeDebugResources-4 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+edu.stevens.cs522.chatclient.app-merged_res-5 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/build/intermediates/merged_res/debug
+edu.stevens.cs522.chatclient.app-debug-6 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/debug/res
+edu.stevens.cs522.chatclient.app-main-7 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/app/src/main/res
+edu.stevens.cs522.chatclient.app-cs522-library-8 /Users/suhas/Documents/Stevens/ClassWork/Apps/HW4/Assignment-Code/Chat-Client-Oneway/cs522-library/build/.transforms/df4e88ff2566772a436dd383ba24e7db/transformed/cs522-library/res
