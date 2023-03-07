@@ -1,0 +1,6 @@
+i.  rows: 47
+ii. columns: 5
+iii.function: ngram-fingerprint, 120
+iv. GREL_brand_name: grel:if(isBlank(value.trim()), "Unknown", value)
+v.  GREL_highpriced: grel:if(value > 90 , 1 ,0)
+vi. GREL_hasoffer:   grel:if (toLowercase(value).match(/.*(discount|offer|sale).*/) != null, 1, 0)
