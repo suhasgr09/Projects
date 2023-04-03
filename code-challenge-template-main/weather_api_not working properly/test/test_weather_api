@@ -1,0 +1,72 @@
+import json
+import pytest
+from app import app, db
+from models import WeatherData, WeatherStats
+
+
+@pytest.fixture
+def client():
+    app.config['TESTING'] = True
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
+    client = app.test_client()
+
+    with app.app_context():
+        db.create_all()
+
+        weather_data = WeatherData(station_id='XYZ', date='2022-03-01', max_temperature=20.0, min_temperature=10.0, precipitation=5.0)
+        db.session.add(weather_data)
+
+        weather_stats = WeatherStats(station_id='XYZ', year=2022, avg_max_temperature=20.0, avg_min_temperature=10.0, total_precipitation=5.0)
+        db.session.add(weather_stats)
+
+        db.session.commit()
+
+    yield client
+
+    with app.app_context():
+        db.drop_all()
+
+
+def test_get_weather_data(client):
+    response = client.get('/api/weather')
+    assert response.status_code == 200
+
+    data = json.loads(response.data.decode('utf-8'))
+    assert len(data) == 1
+
+
+def test_get_weather_data_with_filter(client):
+    response = client.get('/api/weather?station_id=XYZ&start_date=2022-03-01&end_date=2022-03-31')
+    assert response.status_code == 200
+
+    data = json.loads(response.data.decode('utf-8'))
+    assert len(data) == 1
+
+
+def test_get_weather_data_with_pagination(client):
+    response = client.get('/api/weather?page=1&per_page=10')
+    assert response.status_code == 200
+
+    data = json.loads(response.data.decode('utf-8'))
+    assert len(data) == 1
+
+def test_get_weather_stats(client):
+    response = client.get('/api/weather/stats')
+    assert response.status_code == 200
+    data = json.loads(response.data.decode('utf-8'))
+    assert len(data) == 1
+
+def test_get_weather_stats_with_filter(client):
+    response = client.get('/api/weather/stats?station_id=XYZ&start_year=2022&end_year=2022')
+    assert response.status_code == 200
+    data = json.loads(response.data.decode('utf-8'))
+    assert len(data) == 1
+
+def test_get_weather_stats_with_pagination(client):
+    response = client.get('/api/weather/stats?page=1&per_page=10')
+    assert response.status_code == 200  
+    data = json.loads(response.data.decode('utf-8'))
+    assert len(data) == 1
+
+
+
