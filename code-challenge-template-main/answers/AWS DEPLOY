@@ -1,0 +1,8 @@
+For deploying the application on AWS, I will use the following services:
+
+Amazon EC2 (for running the application and database)
+Amazon RDS (for running the managed database)
+Amazon S3 (for storing the weather data files)
+AWS Lambda (for running the scheduled version of the ingestion code)
+AWS CloudFormation (for provisioning the infrastructure)
+AWS Elastic Beanstalk (for deploying the Flask application)
